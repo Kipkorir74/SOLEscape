@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to SOLEscape, the ultimate online marketplace for sneaker enthusiasts and shoe aficionados! Immerse yourself in a world where style meets comfort, and every step you take is a fashion statement. Discover the latest trends, rare finds, and iconic classics that will elevate your shoe game to a whole new level.
