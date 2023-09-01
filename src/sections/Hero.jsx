@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 const Hero = () => {
 
-  const{bigShoeImg, setBigShoeImg} = useState(bigShoe1)
+  const[bigShoeImg, setBigShoeImg] = useState(bigShoe1)
 
   return (
     <section id="home"
@@ -50,8 +50,8 @@ const Hero = () => {
         />
 
         <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left[10% max-sm:p-6]'>
-          {shoes.map((shoe) => (
-            <div key={shoe}>
+          {shoes.map((shoe, index) => (
+            <div key={index}>
               <ShoeCard 
               imgURL={shoe}
               changeBigShoeImg={(shoe) => setBigShoeImg(shoe)}
