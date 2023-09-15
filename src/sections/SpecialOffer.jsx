@@ -1,5 +1,6 @@
 import { offer } from "../assets/images";
 import Button from "../Components/Button";
+import { arrowRight } from "../assets/icons";
 
 const SpecialOffer = () => {
   return (
@@ -16,16 +17,22 @@ const SpecialOffer = () => {
           Offer
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Experience the epitome of comfort and elegance with our exquisitely crafted footwear.
-          Our shoes are meticulously fashioned from the highest quality materials, guaranteeing
-          enduring durability. Discover unparalleled comfort and exceptional support that sets
-          our footwear apart.
+          Discover a shopping odyssey where exceptional savings meet top-tier choices, providing you with unmatched value that distinguishes us.
+          
         </p>
-        <p className='mt-6 lg:max-w-lg info-text'>Our unwavering commitment to precision and superior quality guarantees your utmost
-          satisfaction.</p>
-        <div className='mt-11'><Button label="View Details" /></div>
-
-
+        <p className='mt-6 lg:max-w-lg info-text'>As you navigate our virtual aisles or stroll through our physical store, you'll embark on a 
+        shopping journey like no other. Our commitment to delivering unbeatable deals on premium products ensures that every purchase you make 
+        represents an investment in quality and affordability.</p>
+        <div className='mt-11 flex flex-wrap gap-4'>
+          <Button label='Shop now' iconURL={arrowRight} />
+          <Button
+            label='Learn more'
+            backgroundColor='bg-white'
+            borderColor='border-slate-gray'
+            textColor='text-slate-gray'
+          />
+        
+        </div>
       </div>
     </section>
   )
