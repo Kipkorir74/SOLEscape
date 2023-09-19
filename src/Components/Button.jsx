@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({ label, iconURL, backgroundColor, borderColor, textColor }) => {
+const Button = ({ label, iconURL, backgroundColor, borderColor, textColor,fullWidth }) => {
     return (
 
         // check for the background color. If its is available, apply 
@@ -9,7 +9,7 @@ const Button = ({ label, iconURL, backgroundColor, borderColor, textColor }) => 
         font-montserrat text-lg leading-none 
         ${backgroundColor ?
                 `${backgroundColor} ${textColor} ${borderColor}` :
-                "bg-coral-red text-white border-coral-red"}  rounded-full "`}>
+                "bg-coral-red text-white border-coral-red"}  rounded-full ${fullWidth && 'w-full'}"`}>
             {label}
 
             {iconURL && <img
